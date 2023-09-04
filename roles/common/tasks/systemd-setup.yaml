@@ -9,4 +9,5 @@
 - name: restart {{component}}
   ansible.builtin.service:
     name: "{{component}}"
+    enabled: yes
     state: restarted
