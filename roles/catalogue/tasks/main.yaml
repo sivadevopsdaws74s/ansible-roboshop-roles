@@ -23,7 +23,7 @@
     name: common
     tasks_from: load-mongo-schema
 
-- name: SetUp Application
+- name: Start application
   ansible.builtin.import_role:
     name: common
     tasks_from: systemd-setup
